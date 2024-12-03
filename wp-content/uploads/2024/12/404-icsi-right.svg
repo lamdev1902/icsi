@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" zoomAndPan="magnify" viewBox="0 0 510 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0">
+  <defs>
+    <clipPath id="0a2f1592f4">
+      <path d="M 8.226562 8 L 27 8 L 27 11 L 8.226562 11 Z M 8.226562 8 " clip-rule="nonzero"></path>
+    </clipPath>
+    <clipPath id="f3580beb91">
+      <path d="M 8.226562 17 L 27 17 L 27 20 L 8.226562 20 Z M 8.226562 17 " clip-rule="nonzero"></path>
+    </clipPath>
+    <clipPath id="3e4f57e475">
+      <path d="M 36 12 L 501.773438 12 L 501.773438 16 L 36 16 Z M 36 12 " clip-rule="nonzero"></path>
+    </clipPath>
+    <clipPath id="4becd70fd3">
+      <path d="M 18 2.519531 L 44 2.519531 L 44 26 L 18 26 Z M 18 2.519531 " clip-rule="nonzero"></path>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#0a2f1592f4)">
+    <path fill="#313131" d="M 26.804688 9.628906 C 26.804688 10.304688 26.605469 10.59375 25.917969 10.59375 L 9.242188 10.59375 C 8.558594 10.59375 8.339844 10.304688 8.339844 9.628906 L 8.339844 9.550781 C 8.339844 8.882812 8.558594 8.3125 9.242188 8.3125 L 25.917969 8.3125 C 26.605469 8.3125 26.804688 8.882812 26.804688 9.550781 Z M 26.804688 9.628906 " fill-opacity="1" fill-rule="nonzero"></path>
+  </g>
+  <g clip-path="url(#f3580beb91)">
+    <path fill="#313131" d="M 26.804688 18.480469 C 26.804688 19.152344 26.605469 19.730469 25.917969 19.730469 L 9.242188 19.730469 C 8.558594 19.730469 8.339844 19.152344 8.339844 18.480469 L 8.339844 18.40625 C 8.339844 17.730469 8.558594 17.445312 9.242188 17.445312 L 25.917969 17.445312 C 26.605469 17.445312 26.804688 17.730469 26.804688 18.40625 Z M 26.804688 18.480469 " fill-opacity="1" fill-rule="nonzero"></path>
+  </g>
+  <g clip-path="url(#3e4f57e475)">
+    <path stroke-linecap="butt" transform="matrix(0.761292, 0, 0, 0.761292, 8.3414, 2.517923)" fill="none" stroke-linejoin="miter" d="M 675.00175 15.000258 L 38.398956 15.000258 " stroke="#3ccace" stroke-width="3" stroke-opacity="1" stroke-miterlimit="10"></path>
+  </g>
+  <g clip-path="url(#4becd70fd3)">
+    <path fill="#ff914d" d="M 21.988281 2.5625 L 21.988281 4.976562 L 30.027344 4.976562 L 36.519531 11.050781 L 43.859375 11.578125 L 43.796875 16.65625 L 36.433594 17.4375 L 29.703125 23.40625 L 21.679688 23.40625 L 21.679688 25.539062 L 18.109375 25.492188 L 18.109375 2.519531 Z M 21.988281 2.5625 " fill-opacity="1" fill-rule="nonzero"></path>
+  </g>
+</svg>

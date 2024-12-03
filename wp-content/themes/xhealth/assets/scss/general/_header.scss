@@ -1,0 +1,134 @@
+$text-color: #000000;
+
+#header {
+  border-bottom: 0.5px solid #000000;
+  position: relative;
+
+  .container-header {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: #ffffff;
+    box-sizing: border-box;
+    font-family: "Outfit";
+    margin: auto;
+  }
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  .logo-header {
+    vertical-align: middle;
+    margin-top: 4px;
+  }
+
+  .header-right {
+    display: flex;
+    gap: 0 32px;
+    align-items:center;
+    .list-menu-header {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 0px 32px;
+
+        li {
+          cursor: pointer;
+
+          a {
+            display: flex;
+            align-items: center;
+
+            span {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              color: #000000;
+            }
+
+            img {
+              margin-left: 4px;
+            }
+          }
+        }
+      }
+    }
+    .search-toggle {
+      display:block;
+      width:24px;
+      height:24px;
+      background-image:url('../images/header/search-icon.svg');
+      background-repeat:no-repeat;
+      background-position: center center;
+      background-size:100% auto;
+      &.active {
+        background-image:url('../images/header/close-icon.svg');
+      }
+    }
+  }
+
+  .header-search-form {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 10px 0;
+    background: #f6f6f6;
+
+
+    .search-box {
+      height: 49px;
+      background: #f6f6f6;
+      border-radius: 8px;
+      position: relative;
+      padding-right: 50px;
+    }
+
+    .search-input {
+      padding: 12.5px 16px;
+      width: 100%;
+      background: transparent;
+      border: initial;
+    }
+
+    .search-icon {
+      position: absolute;
+      top: 10px;
+      right: 16px;
+      border: none;
+      background: transparent;
+    }
+  }
+}
+@media (max-width:1199px) {
+  #header {
+    .list-menu-header {
+      display:none;
+    }
+    .container-header {
+      padding:8px 16px;
+      .logo {
+        width:80px;
+      }
+    }
+    .header-right {
+      gap: 0 16px;
+    }
+  }
+  .menu-toggle {
+    width:24px;
+    height:24px;
+    display:block;
+    background-image: url('../images/menu-icon.svg');
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+  }
+}

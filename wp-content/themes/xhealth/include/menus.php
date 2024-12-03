@@ -1,0 +1,1 @@
+<?php	add_theme_support('menus');	register_nav_menus(array(		'menu_main'=>'Menu Main',		'menu_footer_main'=>'Menu Footer Main',		'menu_footer_bottom'=>'Menu Footer Bottom',	));?>

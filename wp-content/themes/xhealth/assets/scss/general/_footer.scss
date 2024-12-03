@@ -1,0 +1,225 @@
+#footer {
+  width: 100%;
+  border-top: 0.5px solid #000000;
+  font-family: "Poppins";
+
+  .section-contact-footer {
+    border-bottom: 0.5px solid #000000;
+
+    .container {
+      padding: 28px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .link-logo-footer {
+      margin-right: 12%;
+    }
+
+    .contact-form-footer {
+      height: 40px;
+      max-height: 40px;
+      width: 540px;
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #0d152e;
+
+      .wrap-input-contact {
+        width: 100%;
+        padding: 10px 24px;
+        input {
+          height: 100%;
+          width: 100%;
+          border: none;
+          font-size: 16px;
+          font-family: "Outfit";
+        }
+      }
+
+      .contact-form-footer-button-custom {
+        height: 100%;
+        padding: 8px 16px;
+        display: flex;
+        min-width: 122px;
+        background: #0d152e;
+        border: 0px;
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+
+        img {
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .list-social-footer {
+      display: flex;
+      gap: 0 16px;
+      align-items: center;
+
+      .text-social-footer {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+      }
+
+      ul {
+        display: flex;
+        gap: 0 16px;
+      }
+    }
+  }
+
+  .section-menu-footer {
+    .container {
+      padding: 40px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+    }
+
+   ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px 0;
+
+     > li {
+        width: calc(100% / 4);
+
+        > a {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 21px;
+          color: #000000;
+          margin-bottom: 24px;
+          text-transform: uppercase;
+			display:block;
+        }
+
+        ul {
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 16px 0;
+
+          li {
+            display: block;
+            text-decoration: none;
+            width:auto;
+            a {
+              margin:0;
+              font-weight: 400;
+               font-size: 14px;
+              line-height: 21px;
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-policy {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 32px;
+
+    ul {
+      display: flex;
+      gap: 0 32px;
+      padding: 8px 0;
+      align-items: center;
+      justify-content: center;
+      li {
+        display: flex;
+
+        a {
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+@media (max-width:1199px) {
+  #footer {
+    .section-contact-footer {
+      .container  {
+        padding: 16px;
+        flex-wrap: wrap;
+      }
+      .contact-form-footer {
+        order:1;
+        width:100%;
+        margin-top:20px;
+        .wrap-input-contact {
+          padding: 0 16px;
+          input {
+            font-size:12px;
+            color: rgba(0,0,0,0.3);
+          }
+        }
+      }
+      .link-logo-footer {
+        width:50%;
+        margin:0;
+      }
+      .list-social-footer {
+        width:50%;
+        display:block;
+        text-align: right;
+        ul {
+          margin-top: 8px;
+          justify-content: flex-end;
+        }
+      }
+    }
+    .section-menu-footer {
+      .container {
+        padding:24px 16px;
+      }
+      ul {
+        gap: 24px 16px;
+        li {
+          width: calc(50% - 8px);
+        }
+      }
+    }
+    .section-policy {
+      display: block;
+      padding: 16px;
+      ul {
+        display:block;
+        padding:0;
+        text-align: center;
+        li {
+          display: inline-block;
+          margin: 0 8px 8px;
+        }
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

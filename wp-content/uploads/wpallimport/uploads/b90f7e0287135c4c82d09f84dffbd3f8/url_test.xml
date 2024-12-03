@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<slug><![CDATA[covid-19-vaccine-faq/if-i-receive-the-vaccine-will-i-still-need-to-mask-and-wear-eye-protection-and-social-distance/]]></slug>
+		<title><![CDATA[If I receive the vaccine will I still need to mask and wear eye protection and social distance?]]></title>
+		<content><![CDATA[2 weeks after their second dose in a 2-dose series (Pfizer-BioNTech or Moderna vaccines)
+2 weeks after a single dose vaccine (Johnson & Johnson)
+If it has been less than 2 weeks since your shot, or if you still need to get your second dose, you are NOT fully protected.
+
+According to the CDC, if you’ve been fully vaccinated:
+
+You can resume activities that you did prior to the pandemic.
+To reduce the risk of being infected with the Delta variant and possibly spreading it to others, wear a mask indoors in public if you are in an area of substantial or high transmission.
+You might choose to wear a mask regardless of the level of transmission if you have a weakened immune system or if, because of your age or an underlying medical condition, you are at increased risk of severe disease or if a member of your household has a weakened immune system, is at increased risk for severe disease, or is unvaccinated.
+If you travel in the United States, you do not need to get tested before or after travel or self-quarantine after travel.
+You need to pay close attention to the situation at your international before traveling outside the United States.
+You do NOT need to get tested before leaving the United States unless your destination requires it.
+You still need to show a negative test result or documentation of recovery from COVID-19 before boarding an international flight to the United States.
+You should still get tested 3-5 days after international travel.
+You do NOT need to self-quarantine after arriving in the United States.
+If you’ve had close contact with someone who has COVID-19, you should get tested 3-5 days after your exposure, even if you don’t have symptoms. You should also wear a mask indoors in public for 14 days following exposure or until your test result is negative. You should isolate for 10 days if your test result is positive.]]></content>
+	</node>
+	<node>
+		<slug><![CDATA[covid-19-vaccine-faq/isnt-it-better-to-get-natural-immunity-from-the-disease/]]></slug>
+		<title><![CDATA[Isn’t it better to get natural immunity from the disease?]]></title>
+		<content><![CDATA[Both this disease and the vaccine are new. We don’t know how long protections lasts for those who get infected or those who are vaccinated. Current evidence suggests that getting the virus again (reinfection) is uncommon in the 90 days after the first infection with the virus that causes COVID-19. What we do know is that COVID-19 has caused serious illness and death to a lot of people. Vaccines are not a perfect fix but it is a safer choice than the disease. We will still need to practice precautions like wearing a mask, social distancing, and handwashing until public health officials say otherwise.]]></content>
+	</node>
+	<node>
+		<slug><![CDATA[covid-19-vaccine-faq/should-i-get-an-antibody-test-to-see-if-i-have-immunity-after-getting-the-covid-19-vaccine/]]></slug>
+		<title><![CDATA[Should I get an antibody test to see if I have immunity AFTER getting the COVID-19 vaccine?]]></title>
+		<content><![CDATA[Antibody testing is not currently recommended to assess for immunity to SARS-CoV-2 following COVID-19 vaccination because the clinical utility of post-vaccination testing has not been established. Antibody tests currently authorized under the EUA have variable sensitivity, specificity, as well as positive and negative predictive values, and are not authorized for the assessment of immune response in vaccinated people. Furthermore, the serologic correlates of protection have not been established, and antibody testing does not evaluate the cellular immune response, which may also play a role in vaccine-mediated protection. Finally, antibody testing against nucleocapsid will not detect immune responses resulting from vaccination, but patients may not always know what type of antibody test was used. If antibody testing was performed following vaccination, additional doses of the same or different COVID-19 vaccines are not recommended based on antibody test results at this time. If antibody testing was done after the first dose of an mRNA vaccine, the vaccination series should be completed regardless of the antibody test result.]]></content>
+	</node>
+</data>

@@ -1,0 +1,217 @@
+/*
+Theme Name: Xhealth
+Theme URI: https://37code.vn
+Author: 37Code
+Author URI: https://37code.vn
+Description: Our 2023 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+Tags: html, css, wordpress, woocommrece, responsive, tablet, mobile, 37code, good seo
+*/
+
+#couponModal{
+	    background: rgba(0,0,0,0.6);
+}
+#couponModal .modal-custom-dialog{
+	max-width: 652px;
+}
+#couponModal .modal-content{
+	border-radius: 12px;
+    background: #F9FFFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.20);
+    border: none;
+    padding: 40px;
+    min-height: auto;
+}
+#couponModal .modal-header{
+	padding: 0;
+    position: relative;
+}
+#couponModal .modal-header > .relative-section{
+	    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: auto;
+    padding-bottom: 24px;
+}
+#couponModal.modal-custom .modal-header img{
+	    margin: 0;
+    max-width: 100%;
+    max-height: 34px;
+}
+#couponModal.modal-custom .modal-header .date{
+	position: relative;
+    opacity: 0.5;
+}
+#couponModal.modal-custom .modal-header .close{
+	right: -24px;
+    top: -24px;
+    background-image: url(assets/images/close-icon.svg);
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+	cursor: pointer;
+}
+#couponModal .modal-body{
+	padding: 24px 0 0;
+    border-top: 0.5px solid #0D152E;
+}
+#couponModal.modal-custom .modal-body h2{
+	    padding: 0;
+    border: none;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+#couponModal.modal-custom .modal-body ol{
+	    margin-bottom: 25px;
+	counter-reset: section;
+}
+#couponModal.modal-custom .modal-body ol li{
+	position: relative;
+    padding-left: 39px;
+    min-height: 31px;
+    color: #414141;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#couponModal.modal-custom .modal-body ol li:before{
+	    counter-increment: section;
+    content: counter(section);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 31px;
+    height: 31px;
+    background: #36B6B9;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#couponModal.modal-custom .modal-body ol li a{
+	font-weight: 700;
+	color: #42E8E0;
+}
+#couponModal.modal-custom .modal-body ol li:first-child{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#couponModal .coupon-copy{
+	display: flex;
+    height: 40px;
+    align-items: center;
+}
+#couponModal .coupon-copy input{
+	width: 240px;
+    height: 40px;
+    border: 1px solid #0D152E;
+    border-right: none;
+    padding: 10px 16px 10px 24px;
+    color: #000;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+#couponModal .coupon-copy a{
+	padding: 8px 16px;
+    color: #FFF !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500 !important;
+    line-height: 24px;
+    background: #0D152E;
+}
+#couponModal .btn-goto{
+	border: 0.5px solid var(--neutral-0-d-152-e, #0D152E);
+    background: var(--nchc-secondary-brand-color-01, #D8F4F5);
+    box-shadow: 8px 8px 0px 0px #000;
+    padding: 16px 80px 16px 32px;
+    color: var(--health-black, #313131);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 122.023%;
+    text-transform: uppercase;
+    display: inline-block;
+	position: relative;
+}
+#couponModal .btn-goto:after{
+	position: absolute;
+	top: 50%;
+	right: 32px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	content:"";
+	width: 24px;
+	height: 24px;
+	background:url(assets/images/404/404-arrow.svg) no-repeat center center/100% auto;
+}
+.advads-phenq-us .offer-item .wp-block-columns{
+	padding: 0 20px;
+}
+@media(max-width: 767px){
+	#couponModal{
+		    padding: 0 20px;
+	}
+	#couponModal .modal-content{
+		padding: 24px;
+   	 max-height: calc(100vh - 40px);
+	}
+	#couponModal .modal-header > .relative-section{
+		padding-bottom: 16px;
+    	padding-right: 31px;
+	}
+	#couponModal.modal-custom .modal-header img{
+		    max-height: 24px;
+    width: auto;
+	}
+	#couponModal.modal-custom .modal-header .date{
+		    font-size: 10px;
+	}
+	#couponModal.modal-custom .modal-header .close{
+		top: -5px;
+    right: -5px;
+	}
+	#couponModal .modal-body{
+		    padding-top: 16px;
+	}
+	#couponModal.modal-custom .modal-body h2{
+		font-size: 14px;
+    line-height: 24px;
+	}
+	#couponModal.modal-custom .modal-body ol{
+		margin-bottom: 24px;
+	}
+	#couponModal.modal-custom .modal-body ol li{
+		padding-left: 33px;
+		display: block !important;
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 16px;
+	}
+	#couponModal .coupon-copy{
+		    margin: 20px 0 0 -33px;
+	}
+	#couponModal .coupon-copy input{
+		    width: calc(100% - 75px);
+	}
+	#couponModal .btn-goto{
+		line-height: 1;
+    padding: 13px 80px 13px 32px;
+	}
+	#couponModal.modal-custom .modal-body ol li:before{
+		font-size: 14px;
+		height: 25px;
+		width: 25px;
+	}
+}

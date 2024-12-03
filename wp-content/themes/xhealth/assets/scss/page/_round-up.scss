@@ -1,0 +1,144 @@
+.extra-content {
+	.cproduct-list {
+		background: #D8F4F5;
+		border: 0.5px solid #0D152E;
+		box-shadow: 8px 8px 0px #000000;
+		padding:24px 24px 32px;
+		h2 {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 36px;
+			color: #313131;
+		}
+		ul {
+			margin:0;
+			li {
+				padding:0;
+				&:before {
+					display:none;
+				}
+				a {
+					display:block;
+					padding:12px 0;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 24px;
+					color: #313131;
+					border-bottom: 1px solid #121924;
+					background-image:url('../images/arrow-down.svg');
+					background-position: right center;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+	}
+	.product-item {
+		ul {
+			li {
+				&:before {
+					display:none;
+				}
+				&.cons-li {
+					background-image: url(../images/cons.svg);
+				}
+			}
+		}
+	}
+	.table-custom,.benefit-table {
+		margin-bottom:30px;
+		figcaption {
+		    text-align: center;
+		    font-size: 14px;
+		    margin: 5px 0 0;
+		}
+		ul {
+			margin:0;
+		}
+		.pros-li,.cons-li {
+		    padding-left: 24px;
+		    background-position: left 8px;
+		    background-image: url(../images/checked.svg);
+		    background-repeat: no-repeat;
+		    font-size: 16px;
+		    line-height: 32px;
+		    color: #414141;
+		    margin: 0 0 16px;
+		    &:before {
+		    	display:none;
+		    }
+		}
+		.cons-li {
+		    background-image: url(../images/cons.svg);
+		}
+		table {
+			min-width:700px;
+		}
+		tr {
+			td {
+				width:20%;
+				font-size: 16px;
+				line-height: 24px;
+				color: #313131;
+				padding:8px;
+				border-color:#313131;
+				background: rgba(216, 244, 245, 0.5);
+				strong {
+					font-weight:600;
+				}
+			}
+			&:first-child {
+				td {
+					background: rgba(13, 21, 46, 0.8);
+					color:#fff;
+					font-weight: 600;
+				}
+			}
+			&:nth-child(2n) {
+				td {
+					background: #fff;
+				}
+			}
+		}
+	}
+	.product-count-auto {
+		counter-reset: product-counters 0;
+		h3 {
+			&:before {
+				counter-increment: product-counters;
+			    content: counter(product-counters) ".";
+			    display: inline-block;
+			    margin-right: 5px;
+			}
+			
+		}
+	}
+	.count-start-step {
+		counter-reset: step-counters 0;
+		~ h3 {
+			&:before {
+				counter-increment: step-counters;
+			    content: "Step " counter(step-counters) " :";
+			    display: inline-block;
+			    margin-right: 5px;
+			}
+		}
+	}
+	.count-end-step {
+		~ h3 {
+			&:before {
+				display:none;
+			}
+		}
+	}
+	.wp-block-image {
+		figcaption {
+		    font-style: italic;
+		    font-weight: 300;
+		    font-size: 12px;
+		    line-height: 24px;
+		    text-align: center;
+		    color: #313131;
+		    opacity: 0.5;
+		}
+	}
+}

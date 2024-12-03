@@ -1,0 +1,57 @@
+.privacy-container {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  .privacy-content {
+    max-width: 727px;
+    margin: 0 auto;
+    h1 {
+      font-size: 36px;
+      line-height: 54px;
+      font-weight: 700;
+      color: #313131;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 700;
+      color: #313131;
+      text-transform: uppercase;
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #313131;
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+//Resposive
+@media only screen and (max-width: 768px) {
+  .privacy-container {
+    padding-bottom: 40px;
+    .privacy-content {
+      h1 {
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 8px;
+      }
+      h2 {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 32px;
+      }
+      p {
+        font-size: 14px;
+        &:last-child {
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+}

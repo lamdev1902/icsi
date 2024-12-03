@@ -1,0 +1,157 @@
+.aboutus-container {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  .container {
+    .aboutus-content {
+      h1 {
+        font-size: 36px;
+        font-weight: 700; //Bold
+        color: #313131;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .general-intro {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 64px;
+        .intro-item {
+          width: calc(50% - 32px);
+          h3 {
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 700;
+            color: #313131;
+            text-transform: uppercase;
+            border-bottom: 0.5px solid #000000;
+            margin-bottom: 16px;
+          }
+          p {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #313131;
+            &:not(:last-child) {
+              margin-bottom: 16px;
+            }
+          }
+        }
+        .who-are-we {
+          width: 100%;
+        }
+      }
+      h2 {
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: 700;
+        color: #313131;
+        text-align: center;
+        padding-top: 40px;
+        margin: 40px auto;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px 25px;
+        padding-bottom: 40px;
+        .author-card {
+          width: 200px;
+          img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 16px;
+          }
+          a {
+            color: inherit;
+          }
+          h4 {
+            font-size: 18px;
+            line-height: 122%;
+            font-weight: 600;
+            color: #0d152e;
+            margin-bottom: 8px;
+          }
+          p {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: rgba(13, 21, 46, 0.5);
+            margin-bottom: 16px;
+          }
+          ul {
+            display: flex;
+            gap: 0 24px;
+            li {
+              a {
+                img {
+                  width: 24px;
+                  height: 24px;
+                  margin-bottom: 0;
+                  vertical-align: middle;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//Reponsive
+@media only screen and (max-width: 769px) {
+  .aboutus-container {
+    padding-bottom: 40px;
+    .container {
+      .aboutus-content {
+        h1 {
+          font-size: 24px;
+          line-height: 36px;
+        }
+        .general-intro {
+          gap: 0;
+          padding-bottom: 16px;
+          .intro-item {
+            width: 100%;
+            &:not(:last-child) {
+              margin-bottom: 32px;
+            }
+            h3 {
+              font-size: 18px;
+              line-height: 27px;
+              padding-bottom: 4px;
+            }
+            p {
+              &:not(:last-child) {
+                margin-bottom: 24px;
+              }
+            }
+          }
+        }
+        h2 {
+          font-size: 24px;
+          line-height: 36px;
+          margin: 0 auto;
+          margin-bottom: 40px;
+        }
+        .gallery {
+          gap: 24px 16px;
+          padding-bottom: 16px;
+          .author-card {
+            width: 163px;
+            h4 {
+              font-size: 16px;
+              line-height: 24px;
+              margin-bottom: 4px;
+            }
+            p {
+              font-size: 12px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
