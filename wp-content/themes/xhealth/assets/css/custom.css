@@ -503,7 +503,7 @@ div.wpcf7-response-output{
 		background: none;
 		padding: 10px 0;
 		width: 100%;
-        top: 40px;
+        top: 0;
 	}
 	#header .header-right .list-menu-header ul.menu > li > ul.sub-menu li{
 		display: block;
