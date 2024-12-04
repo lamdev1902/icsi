@@ -58,7 +58,7 @@
 
 .button-blue-shadow-black {
   padding: 16px 32px;
-  font-family: "Poppins";
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -321,9 +321,10 @@ main {
 #header {
   border-bottom: 0.5px solid #000000;
   position: relative;
+  padding-top: 20px;
 }
 #header .container-header {
-  max-width: 1440px;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -339,7 +340,7 @@ main {
   text-decoration: none;
 }
 a.logo img{
-	max-height:43px;
+	max-height:39px;
 }
 #header .logo-header {
   vertical-align: middle;
@@ -347,12 +348,12 @@ a.logo img{
 }
 #header .header-right {
   display: flex;
-  gap: 0 32px;
+  justify-content: flex-end;
 }
 #header .header-right .list-menu-header ul {
   display: flex;
   align-items: center;
-  gap: 0px 32px;
+  gap: 0px 20px;
 }
 #header .header-right .list-menu-header ul li {
   cursor: pointer;
@@ -410,7 +411,7 @@ a.logo img{
 #footer {
   width: 100%;
   border-top: 0.5px solid #000000;
-  font-family: "Poppins";
+  font-family: "ProximaNova";
 }
 #footer .section-contact-footer {
   border-bottom: 0.5px solid #000000;
@@ -450,7 +451,7 @@ a.logo img{
   min-width: 122px;
   background: #0d152e;
   border: 0px;
-  font-family: "Poppins";
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -840,7 +841,7 @@ a.logo img{
 }
 /* devanagari */
 @font-face {
-  font-family: "Poppins";
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/Poppins/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
@@ -848,7 +849,7 @@ a.logo img{
 }
 /* latin-ext */
 @font-face {
-  font-family: "Poppins";
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/Poppins/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
@@ -856,7 +857,7 @@ a.logo img{
 }
 /* latin */
 @font-face {
-  font-family: "Poppins";
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/Poppins/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");

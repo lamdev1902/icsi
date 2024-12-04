@@ -32,36 +32,29 @@
 <body <?php body_class(); ?>>
 	<header id="header">
 		<div class="container">
-			<div class="header-top">
-				<?php $socials = get_field('socials', 'option');
+			<div class="social mr-bottom-20">
+				<?php
+				$socials = get_field('socials', 'option');
 				if ($socials) {
-					?>
-					<div class="list-social-header">
-						<ul>
-							<?php foreach ($socials as $so) { ?>
-								<li>
-									<a href="<?php echo $so['link']; ?>" target="_blank" rel="nofollow">
-										<img src="<?php echo $so['icon']; ?>" alt="Social" />
-									</a>
-								</li>
-							<?php } ?>
-						</ul>
-						<a href="#" class="contact-header">Contact</a>
-					</div>
-				<?php } ?>
+					foreach ($socials as $social) {
+						?>
+						<a target="_blank" href="<?php echo $social['link']; ?>"><img alt="<?= $social['icon']['alt']; ?>"
+								src="<?= $social['icon']['url']; ?>" /></a>
+					<?php }
+				} ?>
+				<p class="pri-color-2" style="margin-bottom: 0">CONTACT</p>
 			</div>
 		</div>
 		<div class="container-header">
-			<div class="header-bottom">
-				<a href="<?php echo home_url(); ?>" class="logo">
-					<img src="<?php the_field('logo', 'option'); ?>" alt="Xhealth" />
-				</a>
-				<div class="header-right">
-					<nav class="list-menu-header">
-						<?php wp_nav_menu(array('theme_location' => 'menu_main')); ?>
-					</nav>
-					<a href="" class="menu-toggle"></a>
-				</div>
+			<a href="<?php echo home_url(); ?>" class="logo">
+				<img src="<?php the_field('logo', 'option'); ?>" alt="Xhealth" />
+			</a>
+
+			<div class="header-right">
+				<a href="" class="menu-toggle"></a>
+				<nav class="list-menu-header">
+					<?php wp_nav_menu(array('theme_location' => 'menu_main')); ?>
+				</nav>
 			</div>
 		</div>
 

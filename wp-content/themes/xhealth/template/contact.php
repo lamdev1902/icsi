@@ -18,46 +18,53 @@
 // wp_reset_query();
 $pageid = get_the_ID();
 get_header(); ?>
-<div class="breadcrumbs-nav">
-	<div class="container">
-	<?php
-		if ( function_exists('yoast_breadcrumb') ) {
-		  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
-		}
-	?>
-	</div>
-</div>
 <main class="contact-container">
+	<section class="home hero-section single-left">
+		<div class="container">
+			<div class="breadcrumbs-nav">
+				<div class="container">
+					<?php
+					if (function_exists('yoast_breadcrumb')) {
+						yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
+					}
+					?>
+				</div>
+			</div>
+			<div class="content">
+				<h1><?php the_title(); ?></h1>
+			</div>
+		</div>
+	</section>
 	<div class="container">
 		<div class="contact-content">
 			<div class="contact-info">
 				<div class="office-info">
-					<?php echo get_field('us_office',$pageid);?>
+					<?php echo get_field('us_office', $pageid); ?>
 				</div>
-				
+
 				<div class="social-info">
-					<h2><?php echo get_field('follow_title',$pageid);?></h2>
+					<h2><?php echo get_field('follow_title', $pageid); ?></h2>
 					<ul>
-						<?php 
-							$follow_social = get_field('follow_social', $pageid);
-							if($follow_social){
-								foreach($follow_social as $social){
-						?>
-						<li> 
-							<a href="<?php echo $social['link']; ?>" target="_blank" rel="nofollow noopener">
-								<img src="<?php echo $social['icon']; ?>" alt="">
-								<span><?php echo $social['title']; ?></span>
-							</a>
-						</li>
-						<?php } } ?>
+						<?php
+						$follow_social = get_field('follow_social', $pageid);
+						if ($follow_social) {
+							foreach ($follow_social as $social) {
+								?>
+								<li>
+									<a href="<?php echo $social['link']; ?>" target="_blank" rel="nofollow noopener">
+										<img src="<?php echo $social['icon']; ?>" alt="">
+										<span><?php echo $social['title']; ?></span>
+									</a>
+								</li>
+							<?php }
+						} ?>
 					</ul>
 				</div>
 			</div>
 			<div class="contact-form">
-				<h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
 				<div class="form-group">
-					<?php echo do_shortcode(get_field('contact_form',$pageid)); ?>
+					<?php echo do_shortcode(get_field('contact_form', $pageid)); ?>
 				</div>
 			</div>
 		</div>
