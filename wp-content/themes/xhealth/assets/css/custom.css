@@ -466,6 +466,13 @@ div.wpcf7-response-output{
 
 .intro h3 {
     text-align: center;
+    color: #151246;
+    font-size: 26px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
 }
 
 .intro-list.list-flex {
@@ -483,6 +490,9 @@ div.wpcf7-response-output{
     flex:1;
 }
 
+.intro--item .intro--item__content p {
+    font-size: 16px !important;
+}
 .intro--item__content h4 a {
     color: #313131;
 }

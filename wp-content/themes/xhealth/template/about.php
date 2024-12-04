@@ -14,15 +14,6 @@ function socials_link($link)
 <main class="aboutus-container">
 	<section class="hero-section single-left">
 		<div class="container">
-			<div class="breadcrumbs-nav">
-				<div class="container">
-					<?php
-					if (function_exists('yoast_breadcrumb')) {
-						yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
-					}
-					?>
-				</div>
-			</div>
 			<div class="content">
 				<h1 class="single-title"><?php the_title(); ?></h1>
 			</div>
@@ -30,7 +21,7 @@ function socials_link($link)
 	</section>
 	<div class="container">
 		<div class="aboutus-content">
-			<h3 class="holder">Fragmentation of our health care system isn’t working. We believe that the most powerful, practical solutions to major health care issues are found when we courageously collaborate—stepping out of silos and often challenging the status quo.</h3>
+			<h3 class="holder">Fragmentation of our health care system isn't working. We believe that the most powerful, practical solutions to major health care issues are found when we courageously collaborate—stepping out of silos and often challenging the status quo.</h3>
 			<div class="general-intro">
 				<div class="left">
 					<?php the_content(); ?>

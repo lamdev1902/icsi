@@ -82,9 +82,10 @@
 
 body {
   font-family: "ProximaNova", sans-serif;
-  font-size: 16px;
-  color: #000;
+  font-size: 19px;
+  color: #444444;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #F9FFFF;
+  font-weight: 300;
 }
 
 h2 {
@@ -1629,12 +1630,7 @@ img.logo-footer {
   }
 
   .aboutus-container .hero-section.single-left {
-    height: 150px !important;
     padding: 20px 0;
-  }
-
-  .aboutus-container .hero-section.single-left .content {
-    top: 40% !important; 
   }
 
   #footer .section-contact-footer .container .footer-logo,
@@ -1664,10 +1660,9 @@ img.logo-footer {
   position: relative;
 }
 
-
 .hero-section.single-left .content {
   position: relative;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1900,7 +1895,7 @@ img.logo-footer {
 }
 
 .extra-content ol li::marker {
-  color: #EF4C27;
+  color: #444444;
 }
 
 .extra-content .box-hightlight {
@@ -3010,13 +3005,7 @@ img.logo-footer {
   padding-bottom: 40px;
 }
 
-.aboutus-container .hero-section.single-left {
-  height: 300px;
-}
 
-.aboutus-container .hero-section.single-left .content {
-  top: 70%;
-}
 
 .aboutus-container .container .aboutus-content h1 {
   font-size: 36px;

@@ -119,7 +119,7 @@ the_post();
 			</div>
 		</div>
 	</div>
-	<?php if ($post_terms) { ?>
+	<!-- <?php if ($post_terms) { ?>
 		<div class="more-post-list">
 			<div class="container">
 				<h2 class="text-center">Related Posts</h2>
@@ -162,6 +162,6 @@ the_post();
 				</ul>
 			</div>
 		</div>
-	<?php } ?>
+	<?php } ?> -->
 </main>
 <?php get_footer(); ?>
