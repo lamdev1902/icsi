@@ -12,7 +12,7 @@ function socials_link($link)
 ?>
 
 <main class="aboutus-container">
-	<section class="home hero-section single-left">
+	<section class="hero-section single-left">
 		<div class="container">
 			<div class="breadcrumbs-nav">
 				<div class="container">
@@ -30,8 +30,17 @@ function socials_link($link)
 	</section>
 	<div class="container">
 		<div class="aboutus-content">
+			<h3 class="holder">Fragmentation of our health care system isn’t working. We believe that the most powerful, practical solutions to major health care issues are found when we courageously collaborate—stepping out of silos and often challenging the status quo.</h3>
 			<div class="general-intro">
-				<?php the_content(); ?>
+				<div class="left">
+					<?php the_content(); ?>
+				</div>
+				<div class="right">
+					<div class="divider">
+						<img src="<?=get_template_directory_uri()."/assets/images/divider.png"?>" alt="">
+						<h3>We aim to improve care and reduce costs for our patients, families and communities.</h3>
+					</div>
+				</div>
 			</div>
 			<?php $abteam_list = get_field('abteam_list', $pageid);
 			if ($abteam_list) {

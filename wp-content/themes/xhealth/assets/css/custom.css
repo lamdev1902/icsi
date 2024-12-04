@@ -84,6 +84,48 @@
     width: 24px;
     height: 24px;
 }
+
+h3.holder {
+    padding: 42px 86px 64px 86px;
+    text-align: center;
+    color: #151246;
+    font-size: 26px !important;
+    line-height: 32px !important;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+
+.general-intro {
+    gap: 30px;
+}
+
+.general-intro .left {
+    flex: 1;
+}
+
+.general-intro .right {
+    width: 470px;
+}
+.divider {
+    background-color: #f18f35 !important;
+}
+
+.divider img {
+    position: relative;
+    top: -1px;
+    height: 17px;
+    width: 100%;
+}
+.divider h3 {
+    padding: 20px 30px 20px 42px;
+    font-size: 27px !important;
+    line-height: 37px !important;
+    color: #fff;
+    font-weight: 700;
+}
 .contact-container .container .contact-content label{
 	margin-bottom: 5px;
     display: block;
@@ -541,7 +583,12 @@ div.wpcf7-response-output{
     .grid-post {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    h3.holder {
+         padding: 21px 42px 42px 42px;
+    }
 }
+
 /* Customer review */
 .form-customer-feedback .customer-ftoggle {
     display: inline-block;
@@ -1275,6 +1322,20 @@ div.wpcf7-response-output{
 
     .grid-post {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    h3.holder {
+        padding: 12px 24px 24px 24px;
+    }
+
+
+    .general-intro {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .general-intro .right {
+        width: 100%;
     }
 
     /* Footer */
