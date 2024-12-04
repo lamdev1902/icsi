@@ -46,11 +46,11 @@ get_header(); ?>
           <?php foreach ($intros as $intro): ?>
             <div class="intro--item list-flex">
               <div class="intro--item__img">
-                <img src="<?=$intro['icon']?>" alt="">
+                <img src="<?= $intro['icon'] ?>" alt="">
               </div>
               <div class="intro--item__content">
-                <h4><a href="<?=$intro['link']?>"><?=$intro['title']?></a></h4>
-                <p><?=$intro['description']?></p>
+                <h4><a href="<?= $intro['link'] ?>"><?= $intro['title'] ?></a></h4>
+                <p><?= $intro['description'] ?></p>
               </div>
             </div>
           <?php endforeach; ?>
@@ -89,8 +89,9 @@ get_header(); ?>
               <?php echo $img; ?>
             </a>
             <a href="<?php the_permalink(); ?>">
-              <h3 class="post-title"><?php the_title(); ?></h3>
-            </a>
+              <h4 class="post-title"><?php the_title(); ?>
+                <a href="<?php the_permalink(); ?>"></a>
+              </h4>
           </div>
           <?php
           $sitepress->switch_lang($current_code);

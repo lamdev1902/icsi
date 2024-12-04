@@ -143,9 +143,6 @@ h3.holder {
     font-weight: 700;
 }
 
-#header .header-right .list-menu-header #menu-menu-main > li:first-child > a {
-    color: #f3123c;
-}
 #header .header-right .list-menu-header ul li i{
 	display: none;
 }
@@ -493,8 +490,14 @@ div.wpcf7-response-output{
 .intro--item .intro--item__content p {
     font-size: 16px !important;
 }
-.intro--item__content h4 a {
-    color: #313131;
+
+.des {
+    margin-bottom: 20px;
+    line-height: 29px;
+}
+.des p,
+.des span {
+    font-weight: 300 !important;
 }
 
 .home-section-news {
