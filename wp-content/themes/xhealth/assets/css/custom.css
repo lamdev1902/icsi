@@ -428,7 +428,7 @@ div.wpcf7-response-output{
 .intro-list.list-flex {
     column-gap: 30px;
     row-gap: 40px;
-    padding: 64px 0;
+    padding: 64px 0 0;
 }
 
 .intro--item.list-flex {
@@ -1257,7 +1257,7 @@ div.wpcf7-response-output{
     .intro-list.list-flex {
         padding: 0;
         row-gap: 30px;
-        padding: 30px 15px;
+        padding: 30px 15px 0;
     }
     .intro--item.list-flex {
         width: 100%;
