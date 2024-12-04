@@ -1,10 +1,8 @@
-#header .header-right .list-menu-header ul li{
-	position: relative;
-}
+
 #header .header-right .list-menu-header ul.menu > li  > ul.sub-menu{
 	position: absolute;
-    top: calc(100% + 34px);
-    right: -190px;
+    top: 90px;
+    left: 0;
     padding: 40px;
     width: 1100px;
     box-shadow: 0 0.125rem 0.5rem rgba(28,14,64,.15);
@@ -16,6 +14,7 @@
 	visibility: hidden;
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
+    align-items: baseline;
 }
 
 
@@ -463,6 +462,10 @@ div.wpcf7-response-output{
 		overflow-y: hidden;
 		    max-height: 100vh;
 	}
+    #header .header-right .list-menu-header ul li{
+        position: relative;
+    }
+
 	#header.menu-open .list-menu-header{
 		display: block;
 		position: fixed;
@@ -500,7 +503,7 @@ div.wpcf7-response-output{
 		background: none;
 		padding: 10px 0;
 		width: 100%;
-        right: 0;
+        top: 40px;
 	}
 	#header .header-right .list-menu-header ul.menu > li > ul.sub-menu li{
 		display: block;
@@ -510,7 +513,7 @@ div.wpcf7-response-output{
 	}
 
     #header .header-right .list-menu-header ul.menu > li > ul.sub-menu a {
-        color: #000;
+        color: #fff;
     }
 	#header .header-right .list-menu-header ul li i{
 		    position: absolute;
@@ -518,6 +521,7 @@ div.wpcf7-response-output{
 		right: 0;
 		font-size: 20px;
 		display: inline-block;
+        color:#fff;
 	}
 	#header .header-right .list-menu-header ul li i.active{
 		transform: rotate(180deg);
