@@ -74,16 +74,6 @@ the_post();
 					$pmetades = str_replace("%%currentyear%%",date('Y'),$pmetades);
 					?>
 					<div class="pdes-meta"><?php echo $pmetades; ?></div>
-					<?php } if(get_field('disible_featured_image',$postid) != true) { ?>
-					<div class="pdetail-fimage">
-						<?php if(get_the_post_thumbnail($postid,'full')) {
-							the_post_thumbnail('full');
-							echo '<figcaption class="caption-image">'.get_the_post_thumbnail_caption($postid).'</figcaption>';
-						} else { ?>
-						<img src="<?php echo get_field('image_default','option'); ?>" alt="Default Image">
-						<?php } ?>
-						
-					</div>
 					<?php } ?>
 					<!--<div class="coupon-brand">
 						<div class="brand-coupon list-flex flex-middle">

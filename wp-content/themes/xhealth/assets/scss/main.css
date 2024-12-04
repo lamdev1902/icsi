@@ -84,7 +84,6 @@ body {
   font-family: "ProximaNova", sans-serif;
   font-size: 19px;
   color: #444444;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #F9FFFF;
   font-weight: 300;
 }
 
@@ -111,14 +110,14 @@ p a:hover {
 h2 {
   font-size: 20px;
   line-height: 27px;
-  font-weight: 400;
+  font-weight: 300;
   color: #151246;
 }
 
 h2 a,
 h3 a {
   color: #151246;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 27px;
   font-style: normal;
@@ -127,6 +126,7 @@ h3 a {
 h3 {
   font-size: 21px !important;
   line-height: 27px !important;
+  font-weight: 300;
 }
 
 h4 {
@@ -139,7 +139,8 @@ h4 a {
   color: #505050;
 }
 
-ul a, ol a {
+ul a,
+ol a {
   text-decoration: underline;
 }
 
@@ -495,6 +496,7 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+
 .single-inner.list-flex {
   justify-content: center;
 }
@@ -1693,7 +1695,7 @@ img.logo-footer {
   }
 
   .content-single .single-left {
-    width: 100% !important; 
+    width: 100% !important;
   }
 
   #sidebar {
@@ -2081,15 +2083,15 @@ img.logo-footer {
 .extra-content .product-item a.btn-nav,
 .btn-custom a {
   background: #EF4C27;
-    min-width: 217px;
-    height: 56px;
-    line-height: 56px;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    color: #fff;
-    display: inline-block;
-    border-radius: 5px;
+  min-width: 217px;
+  height: 56px;
+  line-height: 56px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
 }
 
 .product-multi .btn-custom a {
@@ -3606,7 +3608,9 @@ img.logo-footer {
 
 .avd-block p {
   font-size: 12px;
+  line-height: 20px;
   margin: 0 0 10px;
+  padding: 10px;
 }
 
 .avd-block p a {
