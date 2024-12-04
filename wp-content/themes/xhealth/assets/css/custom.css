@@ -56,21 +56,20 @@
 .social a {
     line-height: 0;
     display: block;
-    padding: 8px;
+    padding: 5px;
     border-radius: 50%;
     background-color: #EF4C27;
 }
 
 .social a img {
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(319deg) brightness(103%) contrast(104%);
-    width: 24px;
-    height: 24px;
+    width: 14px;
+    height: 14px;
 }
 
 .social p {
     font-weight: 600;
 }
-
 
 #footer .social {
   justify-content: flex-start;
@@ -78,9 +77,12 @@
 
 #footer .social a {
     background-color: #fff;
+    padding: 8px;
 }
 #footer .social a img {
     filter: brightness(0) saturate(100%) invert(23%) sepia(3%) saturate(21%) hue-rotate(357deg) brightness(101%) contrast(79%);
+    width: 24px;
+    height: 24px;
 }
 .contact-container .container .contact-content label{
 	margin-bottom: 5px;
@@ -450,6 +452,10 @@ div.wpcf7-response-output{
 .home-section-news .section-title {
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 300;
+    color: #e3322c;
+    font-size: 50px !important;
+    line-height: 59px !important;
 }
 
 
