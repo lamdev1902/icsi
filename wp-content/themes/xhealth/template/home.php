@@ -40,22 +40,22 @@ get_header(); ?>
         <?php if ($headingIntro): ?>
           <h3><strong><?= $headingIntro ?></strong></h3>
         <?php endif; ?>
+        <?php if ($intros): ?>
+          <div class="intro-list list-flex">
+            <?php foreach ($intros as $intro): ?>
+              <div class="intro--item list-flex">
+                <div class="intro--item__img">
+                  <img src="<?= $intro['icon'] ?>" alt="">
+                </div>
+                <div class="intro--item__content">
+                  <h4><a href="<?= $intro['link'] ?>"><?= $intro['title'] ?></a></h4>
+                  <p><?= $intro['description'] ?></p>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        <?php endif; ?>
       </div>
-      <?php if ($intros): ?>
-        <div class="intro-list list-flex">
-          <?php foreach ($intros as $intro): ?>
-            <div class="intro--item list-flex">
-              <div class="intro--item__img">
-                <img src="<?= $intro['icon'] ?>" alt="">
-              </div>
-              <div class="intro--item__content">
-                <h4><a href="<?= $intro['link'] ?>"><?= $intro['title'] ?></a></h4>
-                <p><?= $intro['description'] ?></p>
-              </div>
-            </div>
-          <?php endforeach; ?>
-        </div>
-      <?php endif; ?>
     </section>
   <?php endif; ?>
   <div class="container">

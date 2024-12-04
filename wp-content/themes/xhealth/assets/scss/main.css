@@ -2061,7 +2061,7 @@ img.logo-footer {
 .extra-content .product-item ul li {
   padding-left: 24px;
   background-position: left 8px;
-  background-image: url("../images/checked.svg");
+  background-image: url("../images/pros-icon.svg");
   background-repeat: no-repeat;
   font-size: 16px;
   line-height: 32px;
@@ -2080,35 +2080,20 @@ img.logo-footer {
 .extra-content .product-item p.btn-nav a,
 .extra-content .product-item a.btn-nav,
 .btn-custom a {
-  background: #D8F4F5;
-  border: 0.5px solid #0D152E;
-  box-shadow: 8px 8px 0px #000000;
-  min-width: 217px;
-  height: 56px;
-  line-height: 56px;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: #313131;
-  display: inline-block;
+  background: #EF4C27;
+    min-width: 217px;
+    height: 56px;
+    line-height: 56px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 .product-multi .btn-custom a {
   margin-top: 16px;
-}
-
-.extra-content .product-item p.btn-nav a:after,
-.extra-content .product-item a.btn-nav:after,
-.btn-custom a:after {
-  display: inline-block;
-  content: "";
-  width: 24px;
-  height: 24px;
-  background-image: url("../images/arrow-link.svg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  margin-left: 24px;
-  vertical-align: middle;
 }
 
 .extra-content .product-item .wp-block-image {
@@ -2361,7 +2346,7 @@ img.logo-footer {
 }
 
 .extra-content .product-item ul li.cons-li {
-  background-image: url(../images/cons.svg);
+  background-image: url(../images/cons-icon.svg);
 }
 
 .extra-content .table-custom,
@@ -2387,7 +2372,7 @@ img.logo-footer {
 .extra-content .benefit-table .cons-li {
   padding-left: 24px;
   background-position: left 8px;
-  background-image: url(../images/checked.svg);
+  background-image: url(../images/pros-icon.svg);
   background-repeat: no-repeat;
   font-size: 16px;
   line-height: 32px;
@@ -2404,7 +2389,7 @@ img.logo-footer {
 
 .extra-content .table-custom .cons-li,
 .extra-content .benefit-table .cons-li {
-  background-image: url(../images/cons.svg);
+  background-image: url(../images/cons-icon.svg);
 }
 
 .extra-content .table-custom table,
