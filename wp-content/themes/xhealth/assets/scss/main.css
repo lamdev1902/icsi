@@ -602,6 +602,10 @@ img.logo-footer {
   color: #fff;
 }
 
+#header .header-right .list-menu-header #menu-menu-main > li > a {
+  color: #fff;
+}
+
 #header .header-right .list-menu-header ul li a span {
   font-weight: 400;
   font-size: 16px;
