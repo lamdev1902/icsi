@@ -598,7 +598,7 @@ img.logo-footer {
   
 }
 
-#header .header-right .list-menu-header ul.menu li a {
+#header .header-right .list-menu-header ul.menu li ul.sub-menu a {
   color: #fff;
 }
 
