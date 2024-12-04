@@ -1688,6 +1688,19 @@ img.logo-footer {
     padding: 0 10px;
   }
 
+  .single-inner.list-flex {
+    flex-direction: column;
+  }
+
+  .content-single .single-left {
+    width: 100%;
+  }
+
+  #sidebar {
+    width: 100%;
+    padding: 0;
+  }
+
   .aboutus-container .hero-section.single-left {
     padding: 20px 0;
   }
