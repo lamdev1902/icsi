@@ -47,7 +47,7 @@ add_action( 'login_head', 'custom_style_login' );
 function theme_mcs_scripts() {
 	/* general css */
 	wp_enqueue_style( 'style-awesome', get_template_directory_uri() . '/assets/fonts/font-awesome.css','','1.2.1' );
-	wp_enqueue_style( 'style-main', get_template_directory_uri() . '/assets/scss/main.css','','2.6.4' );
+	wp_enqueue_style( 'style-main', get_template_directory_uri() . '/assets/scss/main.css','','2.6.5' );
 	wp_enqueue_style( 'style-custom', get_template_directory_uri() . '/assets/css/custom.css','','2.1.0' );
 	wp_enqueue_style( 'main-style', get_stylesheet_uri(),'','1.1.4' );
 }
