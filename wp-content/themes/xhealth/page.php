@@ -12,7 +12,7 @@ the_post();
 		</div>
 	</section>
 	<div class="container">
-		<div class="privacy-content">
+		<div class="privacy-content extra-content">
 			<?php the_content(); ?>
 		</div>
 	</div>
