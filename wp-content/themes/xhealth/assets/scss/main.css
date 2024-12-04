@@ -1628,6 +1628,15 @@ img.logo-footer {
     padding: 0 10px;
   }
 
+  .aboutus-container .hero-section.single-left {
+    height: 150px !important;
+    padding: 20px 0;
+  }
+
+  .aboutus-container .hero-section.single-left .content {
+    top: 40% !important; 
+  }
+
   #footer .section-contact-footer .container .footer-logo,
   #footer .section-contact-footer .container .contact {
     width: 100%;
@@ -2998,8 +3007,15 @@ img.logo-footer {
 }
 
 .aboutus-container {
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
+}
+
+.aboutus-container .hero-section.single-left {
+  height: 300px;
+}
+
+.aboutus-container .hero-section.single-left .content {
+  top: 70%;
 }
 
 .aboutus-container .container .aboutus-content h1 {
