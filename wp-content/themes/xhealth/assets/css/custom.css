@@ -392,6 +392,11 @@ div.wpcf7-response-output{
 #sidebar .side--item h5 {
     color: #fff;
     margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
 }
 
 #sidebar .side--item p,
@@ -437,6 +442,10 @@ div.wpcf7-response-output{
 
 .intro--item__content h4 a {
     color: #313131;
+}
+
+.home-section-news {
+    padding-bottom: 40px;
 }
 
 .home-section-news .section-title {

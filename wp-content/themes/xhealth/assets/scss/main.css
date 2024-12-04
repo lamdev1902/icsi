@@ -979,6 +979,7 @@ img.logo-footer {
   padding-left: 20px;
   background-image: url("../images/on-clock.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: left center;
   font-size: 14px;
 }
