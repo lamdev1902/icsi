@@ -4,7 +4,7 @@
 #header .header-right .list-menu-header ul.menu > li  > ul.sub-menu{
 	position: absolute;
     top: calc(100% + 34px);
-    left: -270%;
+    right: -190px;
     padding: 40px;
     width: 1100px;
     box-shadow: 0 0.125rem 0.5rem rgba(28,14,64,.15);
@@ -500,7 +500,7 @@ div.wpcf7-response-output{
 		background: none;
 		padding: 10px 0;
 		width: 100%;
-        left: 0;
+        right: 0;
 	}
 	#header .header-right .list-menu-header ul.menu > li > ul.sub-menu li{
 		display: block;
