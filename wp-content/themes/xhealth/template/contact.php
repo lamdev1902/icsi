@@ -19,19 +19,10 @@
 $pageid = get_the_ID();
 get_header(); ?>
 <main class="contact-container">
-	<section class="home hero-section single-left">
+	<section class="hero-section single-left">
 		<div class="container">
-			<div class="breadcrumbs-nav">
-				<div class="container">
-					<?php
-					if (function_exists('yoast_breadcrumb')) {
-						yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
-					}
-					?>
-				</div>
-			</div>
 			<div class="content">
-				<h1><?php the_title(); ?></h1>
+				<h1 class="single-title"><?php the_title(); ?></h1>
 			</div>
 		</div>
 	</section>
@@ -42,7 +33,7 @@ get_header(); ?>
 					<?php echo get_field('us_office', $pageid); ?>
 				</div>
 
-				<div class="social-info">
+				<!-- <div class="social-info">
 					<h2><?php echo get_field('follow_title', $pageid); ?></h2>
 					<ul>
 						<?php
@@ -59,7 +50,7 @@ get_header(); ?>
 							<?php }
 						} ?>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 			<div class="contact-form">
 				<?php the_content(); ?>
