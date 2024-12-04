@@ -88,6 +88,26 @@ body {
   font-weight: 300;
 }
 
+p {
+  line-height: 29px;
+  font-size: 19px;
+}
+
+p a {
+  color: #151246;
+  text-decoration: underline;
+}
+
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+a:hover,
+p a:hover {
+  color: #e3322c;
+}
+
 h2 {
   font-size: 34px;
   line-height: 42px;
@@ -305,7 +325,6 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
 }
@@ -3059,7 +3078,7 @@ img.logo-footer {
   padding: 10px 0px 5px 0px;
 }
 
-.aboutus-container .container .aboutus-content p{
+.aboutus-container .container .aboutus-content p {
   font-style: normal;
   font-weight: 300;
   color: #444444;
@@ -3172,13 +3191,8 @@ img.logo-footer {
   }
 }
 
-.contact-container {
-  padding-top: 40px;
-  padding-bottom: 80px;
-}
-
 .contact-container .container .contact-content {
-  display: flex;
+  padding: 40px 0;
 }
 
 .contact-container .container .contact-content h2 {
@@ -3198,25 +3212,10 @@ img.logo-footer {
   margin-bottom: 8px;
 }
 
-.contact-container .container .contact-content p {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #313131;
-}
-
 .contact-container .container .contact-content .contact-info {
   width: 32%;
 }
 
-.contact-container .container .contact-content .contact-info .office-info {
-  margin-bottom: 40px;
-  padding-right: 45px;
-}
-
-.contact-container .container .contact-content .contact-info .office-info ul li:not(:last-child) {
-  margin-bottom: 24px;
-}
 
 .contact-container .container .contact-content .contact-info .social-info {
   max-width: 220px;
@@ -3313,9 +3312,6 @@ img.logo-footer {
 }
 
 @media only screen and (max-width: 768px) {
-  .contact-container {
-    padding-bottom: 40px;
-  }
 
   .contact-container .container .contact-content {
     flex-direction: column-reverse;
