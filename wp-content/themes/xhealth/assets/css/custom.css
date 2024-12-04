@@ -1123,6 +1123,12 @@ div.wpcf7-response-output{
     justify-content: flex-end;
 }
 
+@media (max-width: 768px) { 
+    .intro--item.list-flex {
+        width: 47.7%;
+    }
+}
+
 @media (max-width: 767px) {
     .search-main .search-form h1{
         font-size: 24px;
