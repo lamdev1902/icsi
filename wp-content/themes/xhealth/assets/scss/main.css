@@ -595,6 +595,10 @@ img.logo-footer {
 #header .header-right .list-menu-header ul li a {
   display: flex;
   align-items: center;
+  
+}
+
+#header .header-right .list-menu-header ul.menu li a {
   color: #fff;
 }
 
